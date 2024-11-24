@@ -8,20 +8,26 @@
         margin: 0;
         padding: 0;
         background: pink;
+        padding-left: 10em;
+        padding-right: 10em;
       }
   
       .container {
         height: 100vh;
         background: greenyellow;
-
+        display: flex;
+        flex-direction: column;
+        gap:1em;
       }
 
       header,
       footer {
         background: grey;
+        height: 100px;
       }
 
       main {
+        flex-grow: 1;
         background: grey;
       }
  
